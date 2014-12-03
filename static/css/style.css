@@ -1,0 +1,94 @@
+/* ~ ~ ~ ~ ~ General Use Elements ~ ~ ~ ~ ~ */
+body {
+	background: #9fc6b0;
+}
+
+/*a {
+	color: #333;
+}
+
+a:hover, a:focus {
+	text-decoration: none;
+}
+
+li {
+	list-style-type: none;
+}
+
+h3 {
+	margin-top: 0;
+}*/
+
+
+
+.mt-100 {
+	margin-top: 100px;
+}
+
+.mt-150 {
+	margin-top: 150px;
+}
+
+.mb-30 {
+	margin-bottom: 20px;
+}
+
+.centered {
+	text-align: center;
+}
+
+/* ~ ~ ~ ~ ~ base.html Elements -- Header and Footer ~ ~ ~ ~ ~ */ 
+.navbar {
+	background: white;
+	box-shadow: 2px 2px 6px black;
+	height: 47px;
+	color: blue;
+}
+
+.header-links {
+	color: #777;
+}
+
+li .navbar-brand:hover {
+	background: none !important;
+}
+
+.logo-img {
+	height: 47px;
+	margin-top: -13px;
+}
+
+footer {
+	color: #ccc;
+}
+
+/* ~ ~ ~ ~ ~ home_app Specific Elements ~ ~ ~ ~ ~ */
+.home-page-box {
+	background: #fff;
+	box-shadow: inset 0 0 20px #888;
+		-moz-box-shadow: inset 0 0 20px #888;
+   		-webkit-box-shadow: inset 0 0 10px #aaa;
+   	border: solid #bbb 1px;
+   	color: #444;
+}
+
+.home-page-box:hover {
+	box-shadow: inset 0 0 20px #aaa;
+		-moz-box-shadow: inset 0 0 20px #aaa;
+   		-webkit-box-shadow: inset 0 0 10px #555;
+   	border: solid #bbb 1px;
+	color: #333;
+}
+
+.home-page-ionicons {
+	font-size: 90px;
+}
+
+/* My Profile Page Specific Elements */
+.profile-img {
+	height: 300px;
+}
+
+/* My Contacts Page Specific Elements */
+
+
