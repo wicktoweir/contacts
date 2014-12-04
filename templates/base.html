@@ -54,8 +54,8 @@
 		          		<li><a class="navbar-brand" href="/"><img class="logo-img" src="{% static "img/murph-list.png" %}"></a></li>
                         <!-- ~ ~ ~ ~ ~ Main Links ~ ~ ~ ~ ~ -->
 		            	<li><a href="{% url 'app-views-profile' %}" class="header-links">My Profile</a></li>
-		            	<li><a href="#contact" class="header-links">My Contacts</a></li>
-		            	<li><a href="#contact" class="header-links">My Groups</a></li>
+		            	<li><a href="{% url 'app-views-contacts' %}" class="header-links">My Contacts</a></li>
+		            	<li><a href="{% url 'app-views-groups' %}" class="header-links">My Groups</a></li>
 		            	<li><a href="#contact" class="header-links">Log Out</a></li>
 		          	</ul>
 		        </div><!--/.nav-collapse -->

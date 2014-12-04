@@ -4,32 +4,32 @@
 {% block content %}
 
 			<div class="row">
-  				<div class="col-sm-4 col-md-4">
+  				<a href="{% url 'app-views-profile' %}"><div class="col-sm-4 col-md-4">
     				<div class="thumbnail home-page-box centered">
     					<h2>My Profile</h2>
 		          			<p><i class="ion-android-user-menu home-page-ionicons"></i><p>
 		          			<p>View your Profile<br>
 		          			Edit Your Profile</p>
     				</div>
-  				</div>
+  				</div></a>
 
-  				<div class="col-sm-4 col-md-4">
+  				<a href="{% url 'app-views-contacts' %}"><div class="col-sm-4 col-md-4">
     				<div class="thumbnail home-page-box">
     					<h2 class="centered">My Contacts</h2>
 		          			<p class="centered"><i class="ion-android-contact home-page-ionicons"></i><p>
 		          			<p class="centered">View your Contacts.<br>
 		          			Make a new Contact.</p>
     				</div>
-  				</div>
+  				</div></a>
 
-  				<div class="col-sm-4 col-md-4">
+  				<a href="{% url 'app-views-groups' %}"><div class="col-sm-4 col-md-4">
     				<div class="thumbnail home-page-box">
     					<h2 class="centered">My Groups</h2>
 		          			<p class="centered"><i class="ion-android-friends home-page-ionicons"></i><p>
 		          			<p class="centered">View Your Groups.<br>
 		          			Make a new Group.</p>
     				</div>
-  				</div>
+  				</div></a>
   			</div>
 	      	
 	      	

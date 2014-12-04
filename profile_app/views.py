@@ -1,4 +1,4 @@
 from django.shortcuts import render
 
-def index(request):	
+def profile(request):	
 	return render(request, 'profile_app/index.html')
